@@ -25,6 +25,12 @@ main::after {
     clear: both;
 }
 
+.card::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* stile intestazione */
 header {
     text-align: center;
@@ -46,5 +52,24 @@ h1 {
     width: calc(100% / 3 - 20px);
     height: 100px;
 
+}
+
+/* interno card */
+.img {
+    /* debug */
+    width: 30%;
+    height: 100%;
+    background-color: aqua;
+    float: left;
+}
+
+
+
+.testo {
+    /* debug */
+    width: 70%;
+    height: 100%;
+    background-color: yellow;
+    float: left;
 }
 
