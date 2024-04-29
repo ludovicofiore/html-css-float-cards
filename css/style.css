@@ -19,12 +19,32 @@ body {
     height: 800px;
 }
 
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* stile intestazione */
 header {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 h1 {
     color: rgb(230, 48, 112);
     margin: 40px 0;
 }
+
+/* stile card */
+.card {
+    float: left;
+    margin: 20px 10px;
+    /* debug */
+    background-color: brown;
+    border: solid black;
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+
+}
+
