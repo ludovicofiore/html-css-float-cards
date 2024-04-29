@@ -1,6 +1,7 @@
 
 /* regole generali */
 * {
+    margin: 0;
     border: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,4 +9,22 @@
 
 body {
     font-family: "Fredoka", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    /* debug */
+    background-color: blueviolet;
+    height: 800px;
+}
+
+/* stile intestazione */
+header {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(230, 48, 112);
+    margin: 40px 0;
 }
