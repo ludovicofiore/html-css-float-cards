@@ -17,7 +17,7 @@ body {
     height: auto;
 }
 
-main::after {
+.content::after {
     content: "";
     display: table;
     clear: both;
